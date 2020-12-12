@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cuahnag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="150dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:src="@drawable/hh11" />
+        <LinearLayout
+            android:layout_width="354dp"
+            android:layout_height="63dp">
+            <Button
+                android:id="@+id/dy"
+                android:layout_width="127dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="18dp"
+                android:text="Cho phép"
+                android:textColor="#FFF"
+                android:textSize="15sp"
+                android:background="@drawable/botron1"/>
+
+            <Button
+                android:id="@+id/tc"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="45dp"
+                android:text="Từ chối"
+                android:textColor="#FFF"
+                android:textSize="12sp"
+                android:background="@drawable/botron1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+        android:background="@color/white"
+        app:itemBackground="@color/white"
+        app:itemIconTint="#F19249"
+        app:itemTextColor="#100F0F"
+        app:menu="@menu/menumain">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

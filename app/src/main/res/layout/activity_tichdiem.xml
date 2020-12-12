@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tichdiem"
+    android:background="#F1EEF6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_margin="10dp"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_back"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã thành viên"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
+                android:textColor="#100F0F"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="226dp"
+                android:src="@drawable/h25"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đưa mã này cho nhân viên khi thanh toán"
+                android:layout_marginLeft="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#575454"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="---------------------------------------"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#575454"/>
+
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coupon của bạn(2)"
+                android:layout_marginLeft="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#575454"
+                android:layout_marginBottom="25dp"/>
+
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="328dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/h28" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/h29" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
